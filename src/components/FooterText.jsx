@@ -45,9 +45,9 @@ const FuzzyOverlay = () => {
 const ExampleContent = () => {
   return (
     <div className="grid place-content-center gap-2 px-8 py-24 text-white bg-neutral-950">
-      <FlipLink href="#">Instagram</FlipLink>
-      <FlipLink href="#">Linkedin</FlipLink>
-      <FlipLink href="#">GitHub</FlipLink>
+      <FlipLink href="">Instagram</FlipLink>
+      <FlipLink href="">Linkedin</FlipLink>
+      <FlipLink href="">GitHub</FlipLink>
     </div>
   );
 };
@@ -86,7 +86,7 @@ const FlipLink = ({ children, href }) => {
       initial="initial"
       whileHover="hovered"
       href={href}
-      className="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl"
+      className="relative block overflow-hidden whitespace-nowrap text-4xl sm:text-7xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl"
       style={{
         lineHeight: 0.75,
       }}
