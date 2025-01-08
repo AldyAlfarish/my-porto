@@ -45,7 +45,6 @@ const FuzzyOverlay = () => {
 const ExampleContent = () => {
   return (
     <div className="grid place-content-center gap-2 px-8 py-24 text-white bg-neutral-950">
-      <FlipLink href="">Instagram</FlipLink>
       <FlipLink href="">Linkedin</FlipLink>
       <FlipLink href="">GitHub</FlipLink>
     </div>
