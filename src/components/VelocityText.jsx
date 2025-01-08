@@ -36,7 +36,7 @@ const VelocityText = () => {
         <div className="sticky top-0 flex flex-col h-screen items-center overflow-hidden">
           
           <h1 
-            className="text-5xl md:text-6xl font-bold text-white mb-6 mt-6"
+            className="text-5xl md:text-6xl font-bold text-white mb-6 mt-10"
           >
             About Me
           </h1>
