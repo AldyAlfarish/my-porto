@@ -46,9 +46,9 @@ const ExampleContent = () => {
       <h1 className="text-center text-5xl sm:text-9xl font-black text-neutral-50 title">
         MUHAMMAD ALDY<br/>ALFARISH
       </h1>
-      {/* <p className="text-center text-neutral-400">
-        Scroll Down
-      </p> */}
+      <p className="text-center text-neutral-400">
+        FullStack Web Developer
+      </p>
       {/* Scroll Down Indicator */}
       <motion.div 
           className="text-center transform -translate-x-1/2 text-white flex flex-col items-center"
