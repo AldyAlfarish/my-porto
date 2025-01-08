@@ -86,7 +86,7 @@ const FlipLink = ({ children, href }) => {
       initial="initial"
       whileHover="hovered"
       href={href}
-      className="relative block overflow-hidden whitespace-nowrap text-8xl sm:text-8xl font-black uppercase md:text-8xl lg:text-9xl"
+      className="relative block overflow-hidden whitespace-nowrap text-9xl sm:text-9xl font-black uppercase"
       style={{
         lineHeight: 0.75,
       }}
